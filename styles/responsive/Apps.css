@@ -1,0 +1,634 @@
+/* hoja de estilos de la vista de apps 
+* by JCLR, 26/08/2022, V1.0.0, primera version */
+@media only screen and (min-width: 1440px) {
+    :root {
+        --mainW: 1040px;
+    }
+
+    main { display: flex; }
+
+    nav {
+        background-color: var(--primary);
+        margin-top: var(--margins);
+        margin-bottom: var(--margins);
+        display: flex;
+        width: var(--navW);
+    }
+
+    nav ul {
+        width: 100%;
+        padding-left: 8px;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: var(--onPrimary);
+        font-family: secundaria;
+        margin-top: var(--glutters);
+        padding: var(--glutters);
+    }
+
+    nav ul li p {
+        color: var(--onPrimary);
+        text-decoration: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    nav ul li img { 
+        display: none;
+    }
+
+    nav ul li:hover { background-color: var(--primaryVariant); }
+
+    #contenedor {
+        width: var(--mainW);
+        height: calc(100vh - calc(2 * var(--headerH)) - calc(2 * var(--margins)));
+        margin-top: var(--margins);
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: var(--margins);
+        overflow-y: scroll;
+    }
+
+    #contenedor p {
+        font-family: terciaria;
+    }
+
+    .cards {
+        background-color: white;
+        padding: var(--glutters);
+    } 
+
+    .cards:first-child { margin-top: var(--margins); }
+
+    .cards:last-child { margin-bottom: var(--margins); }
+
+    .titulos { display: flex; }
+
+    .titulos div {
+        width: calc(100% - 2 * var(--column) - 2 * var(--glutters));
+        margin-left: var(--glutters);
+    }
+
+    .titulos h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .titulos h3 { margin-top: 0px; }
+
+    .cards {
+        border-radius: 16px;
+        box-shadow: -4px 4px 4px 4px black, 1px -1px 1px 1px black;
+        width: var(--cardW);
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 32px;
+    }
+
+    .cards:first-child { margin-top: 0px; }
+
+    .cards img {
+        width: calc(2 * var(--column) + var(--glutters));
+        border-radius: 7%;
+        box-shadow: -2px 2px 2px 2px black, 0.5px -0.5px 0.5px 0.5px black;
+    }
+
+    .cards p {
+        text-align: justify;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: terciaria;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .buttons {
+        background-color: var(--primary);
+        color: var(--onPrimary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .buttons:hover { background-color: var(--primaryVariant); }
+}
+@media only screen and (max-width: 1439px) and (min-width: 1240px) {
+    main { display: flex; }
+
+    nav {
+        background-color: var(--primary);
+        margin-top: var(--margins);
+        margin-bottom: var(--margins);
+        display: flex;
+        width: var(--navW);
+    }
+
+    nav ul {
+        width: 100%;
+        padding-left: 8px;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: var(--onPrimary);
+        font-family: secundaria;
+        margin-top: var(--glutters);
+        padding: var(--glutters);
+    }
+
+    nav ul li p {
+        color: var(--onPrimary);
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav ul li img { display: none; }
+
+    nav ul li:hover { background-color: var(--primaryVariant); }
+
+    #contenedor {
+        width: calc(100% - var(--navW) - var(--margin) - var(--margins));
+        height: calc(100vh - calc(2 * var(--headerH)) - calc(2 * var(--margins)));
+        margin-top: var(--margins);
+        margin-left: var(--margins);
+        margin-bottom: var(--margins);
+        overflow-y: scroll;
+    }
+
+    #contenedor p {
+        font-family: terciaria;
+    }
+
+    .cards {
+        background-color: white;
+        padding: var(--glutters);
+    } 
+
+    .cards:first-child { margin-top: var(--margins); }
+
+    .cards:last-child { margin-bottom: var(--margins); }
+
+    .titulos { display: flex; }
+
+    .titulos div {
+        width: calc(100% - 2 * var(--column) - 2 * var(--glutters));
+        margin-left: var(--glutters);
+    }
+
+    .titulos h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .titulos h3 { margin-top: 0px; }
+
+    .cards {
+        border-radius: 16px;
+        box-shadow: -4px 4px 4px 4px black, 1px -1px 1px 1px black;
+        width: var(--cardW);
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 32px;
+    }
+
+    .cards:first-child { margin-top: 0px; }
+
+    .cards img {
+        width: calc(2 * var(--column) + var(--glutters));
+        border-radius: 7%;
+        box-shadow: -2px 2px 2px 2px black, 0.5px -0.5px 0.5px 0.5px black;
+    }
+
+    .cards p {
+        text-align: justify;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: terciaria;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .buttons {
+        background-color: var(--primary);
+        color: var(--onPrimary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .buttons:hover { background-color: var(--primaryVariant); }
+}
+@media only screen and (max-width: 1239px) and (min-width: 905px) {
+    :root {
+        --mainW: 840px;
+    }
+
+    main { display: flex; }
+
+    nav {
+        background-color: var(--primary);
+        margin-top: var(--margins);
+        margin-bottom: var(--margins);
+        display: flex;
+        width: var(--navW);
+    }
+
+    nav ul {
+        width: 100%;
+        padding-left: 8px;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: var(--onPrimary);
+        font-family: secundaria;
+        margin-top: var(--glutters);
+        padding: var(--glutters);
+    }
+
+    nav ul li p {
+        color: var(--onPrimary);
+        text-decoration: none;
+        margin: 0px; 
+        padding: 0px;
+    }
+
+    nav ul li:hover { background-color: var(--primaryVariant); }
+
+    nav ul li img {
+        display: none;
+    }
+
+    #contenedor {
+        width: var(--mainW);
+        height: calc(100vh - calc(2 * var(--headerH)) - calc(2 * var(--margins)));
+        margin-top: var(--margins);
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: var(--margins);
+        overflow-y: scroll;
+        padding: var(--glutters);
+    }
+
+    #contenedor p {
+        font-family: terciaria;
+    }
+
+    .cards {
+        background-color: white;
+        padding: var(--glutters);
+    } 
+
+    .cards:first-child { margin-top: var(--margins); }
+
+    .cards:last-child { margin-bottom: var(--margins); }
+
+    .titulos { display: flex; }
+
+    .titulos div {
+        width: calc(100% - 2 * var(--column) - 2 * var(--glutters));
+        margin-left: var(--glutters);
+    }
+
+    .titulos h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .titulos h3 { margin-top: 0px; }
+
+    .cards {
+        border-radius: 16px;
+        box-shadow: -4px 4px 4px 4px black, 1px -1px 1px 1px black;
+        width: var(--cardW);
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 32px;
+    }
+
+    .cards:first-child { margin-top: 0px; }
+
+    .cards img {
+        width: calc(2 * var(--column) + var(--glutters));
+        border-radius: 7%;
+        box-shadow: -2px 2px 2px 2px black, 0.5px -0.5px 0.5px 0.5px black;
+    }
+
+    .cards p {
+        text-align: justify;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: terciaria;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .buttons {
+        background-color: var(--primary);
+        color: var(--onPrimary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .buttons:hover { background-color: var(--primaryVariant); }
+}
+@media only screen and (max-width: 904px) and (min-width: 600px) {
+    :root {
+        --cardW: 25rem;
+    }
+
+    main { display: flex; }
+
+    nav {
+        background-color: var(--primary);
+        margin-top: var(--margins);
+        margin-bottom: var(--margins);
+        display: flex;
+        width: var(--navW);
+    }
+
+    nav ul {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: var(--onPrimary);
+        font-family: secundaria;
+        margin-top: var(--glutters);
+        padding: var(--glutters);
+        justify-content: center;
+        display: flex;
+    }
+
+    nav ul li p {
+        color: var(--onPrimary);
+        text-decoration: none;
+        display: none;
+    }
+
+    
+    nav ul li img {
+        width: 32px;
+    }
+
+    nav ul li:hover { background-color: var(--primaryVariant); }
+
+    #contenedor {
+        width: calc(100% - var(--navW) - 2 * var(--margin));
+        height: calc(100vh - calc(2 * var(--headerH)) - calc(2 * var(--margins)));
+        margin-top: var(--margins);
+        margin-right: var(--margins);
+        margin-bottom: var(--margins);
+        margin-left: auto;
+        overflow-y: scroll;
+    }
+
+    #contenedor p {
+        font-family: terciaria;
+    }
+
+    .cards {
+        background-color: white;
+        padding: var(--glutters);
+    } 
+
+    .cards:first-child { margin-top: var(--margins); }
+
+    .cards:last-child { margin-bottom: var(--margins); }
+
+    .titulos { display: flex; }
+
+    .titulos div {
+        width: calc(100% - 2 * var(--column) - 2 * var(--glutters));
+        margin-left: var(--glutters);
+    }
+
+    .titulos h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .titulos h3 { margin-top: 0px; }
+
+    .cards {
+        border-radius: 16px;
+        box-shadow: -4px 4px 4px 4px black, 1px -1px 1px 1px black;
+        width: var(--cardW);
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 32px;
+    }
+
+    .cards:first-child { margin-top: 0px; }
+
+    .cards img {
+        width: calc(2 * var(--column) + var(--glutters));
+        border-radius: 7%;
+        box-shadow: -2px 2px 2px 2px black, 0.5px -0.5px 0.5px 0.5px black;
+    }
+
+    .cards p {
+        text-align: justify;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: terciaria;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .buttons {
+        background-color: var(--primary);
+        color: var(--onPrimary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .buttons:hover { background-color: var(--primaryVariant); }
+}
+@media only screen and (max-width: 599px) {
+    :root {
+        --cardW: 25rem;
+    }
+
+    main { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        background-color: var(--primary);
+        width: calc((4 * 48px));
+        margin-top: calc(var(--margins) / 2);
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+
+    nav ul {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    nav ul li {
+        list-style: none;
+        color: var(--onPrimary);
+        font-family: secundaria;
+        margin-top: var(--glutters);
+        padding: var(--glutters);
+        justify-content: center;
+        display: flex;
+    }
+
+    nav ul li p {
+        color: var(--onPrimary);
+        text-decoration: none;
+        display: none;
+    }
+
+    
+    nav ul li img {
+        width: 32px;
+    }
+
+    nav ul li:hover { background-color: var(--primaryVariant); }
+
+    #contenedor {
+        width: calc(100% - 2 * var(--margin));
+        height: calc(100vh - calc(2 * var(--headerH)) - calc(5 * var(--margins) - 32px));
+        margin-top: var(--margins);
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: var(--margins);
+        margin-left: auto;
+        overflow-y: scroll;
+    }
+
+    #contenedor p {
+        font-family: terciaria;
+    }
+
+    .cards {
+        background-color: white;
+        padding: var(--glutters);
+    } 
+
+    .cards:first-child { margin-top: var(--margins); }
+
+    .cards:last-child { margin-bottom: var(--margins); }
+
+    .titulos { 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+     }
+
+    .titulos div {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulos h1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .titulos h3 { 
+        margin-top: 0px; 
+        text-align: center;
+    }
+
+    .cards {
+        border-radius: 16px;
+        box-shadow: -4px 4px 4px 4px black, 1px -1px 1px 1px black;
+        width: 95%;
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 32px;
+    }
+
+    .cards:first-child { margin-top: 0px; }
+
+    .cards img {
+        width: calc(2 * var(--column) + var(--glutters));
+        border-radius: 7%;
+        box-shadow: -2px 2px 2px 2px black, 0.5px -0.5px 0.5px 0.5px black;
+    }
+
+    .cards p {
+        text-align: justify;
+        margin-bottom: 0px;
+        width: 100%;
+        font-family: terciaria;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .buttons {
+        background-color: var(--primary);
+        color: var(--onPrimary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .buttons:hover { background-color: var(--primaryVariant); }
+}

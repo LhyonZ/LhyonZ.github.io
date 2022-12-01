@@ -1,0 +1,105 @@
+@media only screen and (min-width: 1440px) {
+    footer {
+        height: var(--headerH);
+        background-color: var(--primary);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    footer img {
+        width: calc(var(--headerH) - 12px);
+        margin-right: var(--margins);
+    }
+
+    footer p {
+        font-family: primaria;
+        color: var(--onPrimary);
+        margin-right: 8px;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 1439px) and (min-width: 1240px) {
+    footer {
+        height: var(--headerH);
+        background-color: var(--primary);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    footer img {
+        width: calc(var(--headerH) - 12px);
+        margin-right: var(--margins);
+    }
+
+    footer p {
+        font-family: primaria;
+        color: var(--onPrimary);
+        margin-right: 8px;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 1239px) and (min-width: 905px) {
+    footer {
+        height: var(--headerH);
+        background-color: var(--primary);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    footer img {
+        width: calc(var(--headerH) - 12px);
+        margin-right: var(--margins);
+    }
+
+    footer p {
+        font-family: primaria;
+        color: var(--onPrimary);
+        margin-right: 8px;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 904px) and (min-width: 600px) {
+    footer {
+        height: var(--headerH);
+        background-color: var(--primary);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    footer img {
+        width: calc(var(--headerH) - 12px);
+        margin-right: var(--margins);
+        display: none;
+    }
+
+    footer p {
+        font-family: primaria;
+        color: var(--onPrimary);
+        margin-right: 8px;
+    }
+}
+@media only screen and (max-width: 599px) {
+    footer {
+        height: var(--headerH);
+        background-color: var(--primary);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    footer img {
+        width: calc(var(--headerH) - 12px);
+        margin-right: var(--margins);
+        display: none;
+    }
+
+    footer p {
+        font-family: primaria;
+        color: var(--onPrimary);
+        margin-right: 8px;
+    }
+}

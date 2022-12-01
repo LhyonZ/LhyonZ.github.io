@@ -1,0 +1,19 @@
+:root {
+    /* Primarios */
+    --secondary: #113861;
+    --secondaryVariant: #7cb1cf;
+    --onSecondary: #fff;
+
+    /* Secundarios */
+    --primary: #C27557;
+    --primaryVariant: #F5878D;
+    --onPrimary: #fff;
+
+    /* Surfaces */
+    --surface: #fff;
+    --onSurface: #000;
+
+    /* Errors */
+    --error: #f00;
+    --onError: #fff;
+}

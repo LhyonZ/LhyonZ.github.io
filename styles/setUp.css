@@ -1,0 +1,20 @@
+:root { font-size: 16px; }
+
+/* Paddings */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Limpieza de Floats */
+.crearFix::before, .clearFix::after {
+    content: '';
+    display: table; 
+}
+
+.clearFix::after {
+    clear:both;
+}
