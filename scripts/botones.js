@@ -7,18 +7,18 @@
     const bApps = document.getElementsByTagName('li')[3];
 
     bHome.addEventListener('click', function() {
-        window.location.href = '/';
+        window.location.href = '/views/Inicio.html';
     });
 
     bCommands.addEventListener('click', function() {
-        window.location.href = '/commands';
+        window.location.href = '/views/Comandos.html';
     });
 
     bStore.addEventListener('click', function() {
-        window.location.href = '/store';
+        window.location.href = '/views/Store.html';
     });
 
     bApps.addEventListener('click', function() {
-        window.location.href = '/apps';
+        window.location.href = '/views/Apps.html';
     });
 })();

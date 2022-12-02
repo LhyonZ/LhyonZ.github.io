@@ -1,17 +1,17 @@
 /* Primaria */
 @font-face {
     font-family: primaria;
-    src: url("/res/fonts/primary/RussoOne.ttf");
+    src: url("/fonts/primary/RussoOne.ttf");
 }
 
 /* Secundaria */
 @font-face {
     font-family: secundaria;
-    src: url("/res/fonts/secondary/Roboto-Bold.ttf");
+    src: url("/fonts/secondary/Roboto-Bold.ttf");
 }
 
 /* Terciaria */
 @font-face {
     font-family: terciaria;
-    src: url("/res/fonts/terciary/Volkhov-Regular.ttf");
+    src: url("/fonts/terciary/Volkhov-Regular.ttf");
 }
