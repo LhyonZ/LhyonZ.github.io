@@ -1,0 +1,216 @@
+<texts>
+    <lans>
+        <lan>Español</lan>
+    </lans>
+
+    <util>
+        <p>Download</p>
+        <p>LhyonZ</p>
+        <p>JCLR Studio</p>
+    </util>
+
+    <titles>
+        <title>Home</title>
+        <title>Commands</title>
+        <title>Store</title>
+        <title>Apps</title>
+    </titles>
+    
+    <home>
+        <p>
+            Welcome to the oficial website of LhyonZ Twitch channel, this is a channel where you can find streams of videogames in the afternoons, normally of one hour of duration, with Gameplaysof games like Genshin Impact, PUBG movile, Pokemon Unite, Ark: Survival Evolved, Minecraft, Toram Online, Heart Stone, Life After, etc... everyone of them high recomended and available to download in Android Play Store.
+        </p>
+        <p>
+            In this page you can know a litle more about the channel, things likecommands for the chatBot, items available in the StreamLabs Store, info about the apps that you see during the stream as ads, all of them are tools offer by the channel to have a nice time. 
+        </p>
+    </home>
+
+    <commands>
+        <p>
+            During the streams in the chat window you can find a chatBot that responds to some commands, with these commands you can access to special features of the channel, these commands are:
+        </p>
+        <p>
+            /color
+            with this command you can personalize the color in wich your nickname appear in the chat window, you select one of the following colors:
+
+            Coral, DodgerBlue, SpringGreen, Green, OrangeRed, Red, GoldenRod, HotPink, CadetBlue, SeaGreen, Chocolate, BlueViolet, FireBrick, and Blue. 
+
+            example of use: /color blue 
+        </p>
+        <p>
+            /me
+            With this command your message will appear in the same color than your nickname's color, the color you previous set with the command /color. this command helps you to highlight your message.  
+
+            example of use: /me "I have that pokemon too."
+        </p>
+        <p>
+            /w
+            With this command you can send private messajes to other twitch users including the streamer.
+
+            example: /w lhyonz hello lhyon how are you?
+        </p>
+        <p>
+            !cita
+            This command shows a random quote, these quotes are random and can be funny or inspirational. 
+
+            example of use: !quote
+        </p>
+        <p>
+            !sensey
+            Do you need an advice, ask to our sensey, this command permits to ask a question to our sensey he will give you an advice. 
+            
+            example of use: !sensey should I give bits to the Streamer? XD
+        </p>
+    </commands>
+
+    <store>
+        <p>
+            Streams labs permits us to have a store in the channel in this store you can find special items that you can adquire with Bitz the coin of the channel, you can adquire Bitz automatically viewing the stream. 
+        </p>
+        <p>
+            you can adquire the items of the store with the command !Comprar, some of these items are:
+        </p>
+        <p>
+            !comprar jugar
+            With this item you can be part of the game session (if the game permits), this item has a cost of 190.00 Bitz.
+
+            example of use: !comprar jugar myPUBG_ID_or_nick
+        </p>
+        <p>
+            !comprar juego 
+            With this item, you can select a new game for the stream, you need to ask to the streamer if he can play the game in his mobile device, this item has a cost of 75.00 Bitz.
+
+            example of use: !comprar juego Pokemon Unite
+        </p>
+        <p>
+            !comprar palabra 
+            With this command you can select a word and that word will be banned during the rest of the stream, this command has a cost of 100.00 Bitz. 
+
+            example of use: !comprar palabra myFavroryteWord
+        </p>
+        <p>
+            !comprar link 
+            With this command you can send a link to your Twitch Channel or social network (Facebook, Youtube, Discord), this command has a cost of 30.00 Bitz, after of buy this item you have 30 secconds to send your link through the chat window.
+
+            example of use: !comprar link 
+        </p>
+        <p>
+            !comprar noTexto 
+            if you adquire this item, during the next minute nobody else can send text messages, the comunication can only be made with emotes, this item has a cost of 30.00 Bitz.
+
+            example of use: !comprar noTexto
+        </p>
+        <p>
+            !duracion 
+            With this command you can know how much time has the channel on live, this item has a cost of 10.00 Bitz. 
+
+            example of use: !duracion 
+        </p>
+        <p>
+            !billetera 
+            With this command you can kmow how much Bitz do you have on your wallet, this item has a cost of 10.00 Bitz.
+
+            example of use: !billetera
+        </p>
+        <p>
+            !desde 
+            With this command you can know the date since you are following us, this item has a cost of 10.00 Bitz. 
+
+            example of use: !desde 
+        </p>
+        <p>
+            !horas 
+            With this command you can know how many hours you have accumulated viewing our streams.
+
+            example of use: !horas
+        </p>
+    </store>
+
+    <apps>
+        <p>All the apps are free to download in Play Store.</p>
+
+        <p>Chooser</p>
+        <p>This app helps you to take decisions.</p>
+        <p>
+            This app helps you to take everyday decisions or complicated decisions too in an easy way, in this app you can save your situations like the selection of this dinner or what serie watch this afternoon, also you can select you career of favoryte city to live in. 
+        </p>
+        <p>
+            do you already know what to dinner today, a pizza, a hotDog, ... ?
+        </p>
+        <p>what to breakfast?</p>
+
+        <p>Segurificador</p>
+        <p>Secure passwords.</p>
+        <p>
+            This is a app that helps you to create passwords, this app offers you some ways to help to create them like random characters selection, encryption of texts, at same time it offers you the option of change characters for other simbols or numbers. 
+        </p>
+        <p>with this app you will know how to create passwords.</p>
+
+        <p>LifeProject</p>
+        <p>Create your projects for you next adventure.</p>
+        <p>
+            Create LifeProjects, add the costs you consider for these projects compare prices and obtain the aprox salary you will need to live your adventure.
+        </p>
+        <p>
+            Create wekly, montly, anually budgets projects for vacations, travels or study periods in other cities.
+        </p>
+
+        <p>Mandificador</p>
+        <p>Never forget your favorite groseries again.</p>
+        <p>
+            In this app you can save your shopping lists, mark your finded items and take control of your warehouse.
+        </p>
+
+        <p>Ahorrificador</p>
+        <p>take control of your savings.</p>
+        <p>
+            Do you know that saving 10% of your salary you can be known as a good saver if you try to save more than this ammount, you will loss your motivation and end spending these savings, this app helps you to know the amount you have saved and create projects in wich divide your money to keep motivation.
+        </p>
+        <p>
+            Ahorrificador is an android app in wich you can know how much money you have saved and to create saving projects to invest that money to help you to keep motivation.
+        </p>
+
+        <p>Cityficador</p>
+        <p>Take control of your appointments.</p>
+        <p>
+            in this app you can save the date of your meetings and info about they, the hour, place of meeting, contact name, phone, mail, etc.. modify your meetings and receive notifications to never forget your important dates.
+        </p>
+        <p>
+            Also you can search for pendient meetings, meetings of this day, a spesified day or past meetings, and set alarms for they by this way you will never forget your important dates.
+        </p>
+        <p>
+            this app ir oriented to persons like stilists, dentists, psicologists, or persons that have important events like asist to meetings or concerts.
+        </p>
+
+        <p>Randomificador</p>
+        <p>Azard in your hand.</p>
+        <p>
+            Randomificador is an Android app that permits you to obtain random results, you can get a random number from 0 to 100, a random number of a range you selected or you can spesify some options to sort them. 
+        </p>
+
+        <p>BusinesPoint</p>
+        <p>Sales and Warehouse control.</p>
+        <p>
+            BusinesPoint is a SalesPoint for persons that are starting their new busines, with this app you can take te control of yor sales, your providers, your warehouse, budgets, and clients, it has tools like reports to know a litle about your busines.
+        </p>
+
+        <p>LibretApp</p>
+        <p>Take control of your charges.</p>
+        <p>
+            LibretApp is an aplication for entrepeneurs with small busines, this app helps them to have control about the credits they give to their clients reporting all they payments and rest of the doubs.
+        </p>
+        <p>
+            in this app you can register clients, sales in credit their payments, to know dates and rest of doubs.
+        </p>
+
+
+        <p>Cotisificator</p>
+        <p>Realice budgets in your celphone.</p>
+        <p>
+            Cotisificator is an Android app that permits you budgets for your clients in your mobile device, you can create them, add costs, edit them and know totals.
+        </p>
+        <p>
+            with this app you can know how much you charge other clients for similar projects to get orientation in new projects, in time we will be adding new features to the app.
+        </p>
+    </apps>
+</texts>

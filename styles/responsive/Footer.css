@@ -18,6 +18,23 @@
         margin-right: 8px;
         font-size: 1.5rem;
     }
+    .button {
+        background-color: var(--onPrimary);
+        color: var(--primary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .button:hover { 
+        background-color: var(--primaryVariant); 
+        color: var(--onPrimary);
+    }
 }
 @media only screen and (max-width: 1439px) and (min-width: 1240px) {
     footer {
@@ -38,6 +55,23 @@
         color: var(--onPrimary);
         margin-right: 8px;
         font-size: 1.5rem;
+    }
+    .button {
+        background-color: var(--onPrimary);
+        color: var(--primary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .button:hover { 
+        background-color: var(--primaryVariant); 
+        color: var(--onPrimary);
     }
 }
 @media only screen and (max-width: 1239px) and (min-width: 905px) {
@@ -60,6 +94,23 @@
         margin-right: 8px;
         font-size: 1.5rem;
     }
+    .button {
+        background-color: var(--onPrimary);
+        color: var(--primary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .button:hover { 
+        background-color: var(--primaryVariant); 
+        color: var(--onPrimary);
+    }
 }
 @media only screen and (max-width: 904px) and (min-width: 600px) {
     footer {
@@ -81,6 +132,23 @@
         color: var(--onPrimary);
         margin-right: 8px;
     }
+    .button {
+        background-color: var(--onPrimary);
+        color: var(--primary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .button:hover { 
+        background-color: var(--primaryVariant); 
+        color: var(--onPrimary);
+    }
 }
 @media only screen and (max-width: 599px) {
     footer {
@@ -101,5 +169,22 @@
         font-family: primaria;
         color: var(--onPrimary);
         margin-right: 8px;
+    }
+    .button {
+        background-color: var(--onPrimary);
+        color: var(--primary);
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+        margin-top: var(--glutters);
+        margin-right: var(--glutters);
+        margin-bottom: var(--glutters);
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+
+    .button:hover { 
+        background-color: var(--primaryVariant); 
+        color: var(--onPrimary);
     }
 }
