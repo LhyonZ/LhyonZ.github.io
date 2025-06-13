@@ -11,33 +11,103 @@
     text-decoration: none;
 }
 
-header h1 { margin-left: 8px; }
-    main { 
-        width: 50%; 
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 16px;
-    }
-    main h1 { text-align: center; }
-    main p {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: justify;
-    }
-    #container {
-        width: 25%;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: var(--primary);
-        border-radius: 50%;
-    }
-    #container img {
-        width: 100%;
-    }
-    main a { margin-left: 5%; }
+header p { 
+    margin-left: 8px; 
+    font-size: 2rem;
+}
+main { 
+    width: 50%; 
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    box-shadow: -4px 4px 4px 4px var(--secondary), 1px -1px 1px 1px var(--secondary);
+    border-radius: 1rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+}
+main h1 { 
+    color: var(--primary);
+    font-family: secundaria;
+    text-align: center; 
+    margin-bottom: 0.0rem;
+    margin-top: 0rem;
+}
+
+main h2 {
+    color: var(--primaryVariant);
+    font-style: italic;
+    text-align: center;
+    margin-top: 0rem;
+    font-family: terciaria;
+    font-size: 1rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main h3 {
+    font-family: secundaria;
+    font-size: 1rem;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+#container {
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary);
+    border-radius: 15%;
+    padding: 0.5rem;
+}
+#container div {
+    width: 80%;
+    margin-right: auto;
+    margin-bottom: 0rem;
+    margin-left: auto;
+    padding: 0rem;
+}
+
+#container img {
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 0rem;
+    margin-left: auto;
+}
+
+main a { 
+    text-decoration: none;
+    color: var(--onPrimary);
+}
+
+.buttons {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.buttons:hover { cursor: pointer; }
 
 @media only screen and (min-width: 1440px) {}
 @media only screen and (max-width: 1439px) and (min-width: 1240px) {}
 @media only screen and (max-width: 1239px) and (min-width: 905px) {}
-@media only screen and (max-width: 599px) {}
+@media only screen and (max-width: 904px) and (min-width: 600px) {
+    main { width: 90%; }
+}
+@media only screen and (max-width: 599px) {
+    header p { 
+        margin-right: auto;
+        margin-left:auto;
+    }
+
+    main { width: 100%; }
+    #container { width: 50%; }
+}
